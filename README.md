@@ -18,9 +18,23 @@ Users should be able to:
 
 ## Screenshot
 
+![](./screenshot.png)
+
 ## Links
 
+- [Solution URL](https://github.com/annaindistress/frontend-mentor-job-listings)
+- [Live Site URL](https://annaindistress.github.io/frontend-mentor-job-listings/)
+
 ## Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- PostCSS
+- Mobile-first workflow
+- Vanilla JavaScript
+- Vite
 
 ## Author
 
