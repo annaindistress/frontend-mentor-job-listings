@@ -1,1 +1,17 @@
 @import './fonts.css';
+@import './components/box-sizing.css';
+@import './components/sr-only.css';
+@import './components/page.css';
+@import './components/filter.css';
+@import './components/jobs.css';
+
+:root {
+  --black: 180, 14%, 20%;
+  --grey: 180, 8%, 52%;
+  --grey-light: 180, 10%, 74%;
+  --primary-light: 179, 53%, 96%;
+  --primary-dark: 180, 29%, 50%;
+  --border-radius: 5px;
+  --border-radius-lg: 12px;
+  --shadow: 0 15px 20px -5px hsla(189, 81%, 28%, .15);
+}
