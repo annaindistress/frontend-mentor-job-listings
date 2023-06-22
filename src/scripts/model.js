@@ -7,10 +7,11 @@ export const state = {
 };
 
 const createJobObject = function (data) {
+  const imageName = data.logo.replace('./images/', '').replace('.svg', '');
   return {
     id: data.id,
     company: data.company,
-    logo: data.logo.replace('./images/', '/images/logos/'),
+    logo: new URL(`../assets/${imageName}.svg`, import.meta.url).href,
     new: data.new,
     featured: data.featured,
     position: data.position,
